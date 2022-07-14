@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ckeditor',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main.apps.MainConfig',
+    'django_cleanup',
 
 ]
 
@@ -82,12 +84,12 @@ DATABASES = {
     #     'NAME': BASE_DIR / 'db.sqlite3',
     # }
     'default':{
-        'ENGINE':"django.db.backends.postgresql",
+        'ENGINE':"django.db.backends.postgresql_psycopg2",
         'NAME':"postgres",
         'USER':"postgres",
         'PASSWORD':"3nT55876",
-        'HOST':"localhost",
-        'PORT':'',
+        'HOST':"127.0.0.1",
+        'PORT':'5432',
 
     }
 }
