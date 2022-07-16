@@ -1,5 +1,5 @@
 from django.db import models
-
+from ckeditor.fields import RichTextField
 # Create your models here.
 
 
@@ -8,7 +8,7 @@ from django.db import models
 class Category(models.Model):
     name = models.CharField("Kategoriya nomi",max_length=55)
     image = models.ImageField(upload_to="category_images")
-    product_qty = models.PositiveIntegerField("Tovarlar soni", default=0)
+    products_qty = models.PositiveIntegerField("Tovarlar soni", default=0)
     add_size = models.BooleanField("Razmer qo'shish", default=False)
     add_color = models.BooleanField("Rang qo'shish", default=False)
 
@@ -62,9 +62,9 @@ class SIZES(models.TextChoices):
 
 class Product(models.Model):
     category = models.ForeignKey(Category, verbose_name="Kategoriyasi", on_delete=models.PROTECT)
-    subcategory = models.ForeignKey(SubCategory, null=True, verbose_name="Kategoriyasi", on_delete=models.PROTECT)
-    name = models.CharField("Kategoriya nomi",max_length=55)
-    image = models.ImageField(upload_to="category_images")
+    subcategory = models.ForeignKey(SubCategory, null=True, verbose_name="SubKategoriyasi", on_delete=models.PROTECT)
+    name = models.CharField("Tovar nomi",max_length=55)
+    image = models.ImageField("Tovar rasmi " ,upload_to="products_images")
     qty = models.PositiveIntegerField("Ombordagi soni", default=0)
     description = models.TextField("Tovar haqida")
     rating = models.PositiveIntegerField("Reyting", default=0)
@@ -74,4 +74,4 @@ class Product(models.Model):
     prise_uzs = models.PositiveIntegerField("Narxi uzs", default=0)
     prise_usd = models.DecimalField("Narxi usd", max_digits=8, decimal_places=2, default=0.0)
     prise_rub = models.DecimalField("Narxi rub", max_digits=8, decimal_places=2, default=0.0)
-
+    options = RichTextField(config_name='default')
