@@ -1,0 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-18 13:22+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\shop\settings.py:203
+msgid "English"
+msgstr ""
+
+#: .\shop\settings.py:204
+msgid "Russian"
+msgstr ""
+
+#: .\shop\settings.py:205
+msgid "Uzbek"
+msgstr ""
+
+#: .\templates\wrapper.html:37
+msgid "About"
+msgstr ""
+
+#: .\templates\wrapper.html:38 .\templates\wrapper.html:157
+msgid "Contact"
+msgstr ""
+
+#: .\templates\wrapper.html:39
+msgid "Help"
+msgstr ""
+
+#: .\templates\wrapper.html:40
+msgid "FAQs"
+msgstr ""
+
+#: .\templates\wrapper.html:48
+msgid "Sign in"
+msgstr ""
+
+#: .\templates\wrapper.html:49
+msgid "Sign up"
+msgstr ""
+
+#: .\templates\wrapper.html:53
+msgid "USD"
+msgstr ""
+
+#: .\templates\wrapper.html:55
+msgid "UZS"
+msgstr ""
+
+#: .\templates\wrapper.html:56
+msgid "RUB"
+msgstr ""
+
+#: .\templates\wrapper.html:60
+msgid "EN"
+msgstr ""
+
+#: .\templates\wrapper.html:62
+msgid "UZ"
+msgstr ""
+
+#: .\templates\wrapper.html:63
+msgid "RU"
+msgstr ""
+
+#: .\templates\wrapper.html:99
+msgid "Customer Service"
+msgstr ""
+
+#: .\templates\wrapper.html:111
+msgid "Categories"
+msgstr ""
+
+#: .\templates\wrapper.html:147 .\templates\wrapper.html:196
+#: .\templates\wrapper.html:207
+msgid "Home"
+msgstr ""
+
+#: .\templates\wrapper.html:148
+msgid "Shop"
+msgstr ""
+
+#: .\templates\wrapper.html:149 .\templates\wrapper.html:198
+#: .\templates\wrapper.html:209
+msgid "Shop Detail"
+msgstr ""
+
+#: .\templates\wrapper.html:151
+msgid "Pages"
+msgstr ""
+
+#: .\templates\wrapper.html:153 .\templates\wrapper.html:199
+#: .\templates\wrapper.html:210
+msgid "Shopping Cart"
+msgstr ""
+
+#: .\templates\wrapper.html:154 .\templates\wrapper.html:200
+#: .\templates\wrapper.html:211
+msgid "Checkout"
+msgstr ""
+
+#: .\templates\wrapper.html:185
+msgid "Get In Touch"
+msgstr ""
+
+#: .\templates\wrapper.html:186
+msgid ""
+"No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor "
+"sed dolor. Rebum tempor no vero est magna amet no"
+msgstr ""
+
+#: .\templates\wrapper.html:194
+msgid "Quick Shop"
+msgstr ""
+
+#: .\templates\wrapper.html:201 .\templates\wrapper.html:212
+msgid "Contact Us"
+msgstr ""
+
+#: .\templates\wrapper.html:205
+msgid "My Account"
+msgstr ""
+
+#: .\templates\wrapper.html:216
+msgid "Newsletter"
+msgstr ""
+
+#: .\templates\wrapper.html:217
+msgid "Duo stet tempor ipsum sit amet magna ipsum tempor est"
+msgstr ""
+
+#: .\templates\wrapper.html:222
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\wrapper.html:226
+msgid "Follow Us"
+msgstr ""
