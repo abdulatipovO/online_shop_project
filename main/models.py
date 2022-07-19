@@ -75,3 +75,26 @@ class Product(models.Model):
     prise_usd = models.DecimalField("Narxi usd", max_digits=8, decimal_places=2, default=0.0)
     prise_rub = models.DecimalField("Narxi rub", max_digits=8, decimal_places=2, default=0.0)
     options = RichTextField(config_name='default')
+
+
+
+BANNER_SIZES = (
+    ("Big", "big"),
+   ("Medium", "medium"),
+   ("Small", "small"),
+)
+
+class Banner(models.Model):
+    name = models.CharField("Banner nomi",max_length=55)
+    description = models.TextField("Banner teksti")
+    image = models.ImageField("Banner rasmi", upload_to='banner_images')
+    banner_type = models.CharField("Banner turi", max_length=25, choices=BANNER_SIZES)
+
+
+    class Meta:
+        verbose_name = "Banner"
+        verbose_name_plural = "Bannerlar"
+
+    def __str__(self):
+        return self.name
+

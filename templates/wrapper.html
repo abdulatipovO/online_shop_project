@@ -52,15 +52,18 @@
                     <div class="btn-group mx-2">
                         <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">{% trans 'USD' %}</button>
                         <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">{% trans 'USD' %}</button>
                             <button class="dropdown-item" type="button">{% trans 'UZS' %}</button>
                             <button class="dropdown-item" type="button">{% trans 'RUB' %}</button>
                         </div>
                     </div>
                     <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">{% trans 'EN' %}</button>
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">
+                            <span >{{ request.LANGUAGE_CODE | upper }}</span></button>
                         <div class="dropdown-menu dropdown-menu-right">
-                            <button class="dropdown-item" type="button">{% trans 'UZ' %}</button>
-                            <button class="dropdown-item" type="button">{% trans 'RU' %}</button>
+                            <a class="dropdown-item" href="/en" type="button">EN</a>
+                            <a class="dropdown-item" href="/uz" type="button">UZ</a>
+                            <a class="dropdown-item" href="/ru" type="button">RU</a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +197,7 @@
                     <h5 class="text-secondary text-uppercase mb-4">{% trans 'Quick Shop' %}</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Home' %}</a>
-                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans'Our Shop' %}</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Our Shop' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Shop Detail' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Shopping Cart' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Checkout' %}</a>
@@ -205,7 +208,7 @@
                     <h5 class="text-secondary text-uppercase mb-4">{% trans 'My Account' %}</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Home' %}</a>
-                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans'Our Shop' %}</a>
+                        <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Our Shop' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Shop Detail' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Shopping Cart' %}</a>
                         <a class="text-secondary mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>{% trans 'Checkout' %}</a>

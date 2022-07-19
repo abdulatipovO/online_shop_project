@@ -32,11 +32,11 @@ msgstr ""
 
 #: .\templates\wrapper.html:37
 msgid "About"
-msgstr ""
+msgstr "Biz haqimizda"
 
 #: .\templates\wrapper.html:38 .\templates\wrapper.html:157
 msgid "Contact"
-msgstr ""
+msgstr "Aloqa"
 
 #: .\templates\wrapper.html:39
 msgid "Help"
@@ -89,7 +89,7 @@ msgstr ""
 #: .\templates\wrapper.html:147 .\templates\wrapper.html:196
 #: .\templates\wrapper.html:207
 msgid "Home"
-msgstr ""
+msgstr "Bosh sahifa"
 
 #: .\templates\wrapper.html:148
 msgid "Shop"

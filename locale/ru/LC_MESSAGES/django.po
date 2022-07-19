@@ -34,7 +34,7 @@ msgstr ""
 
 #: .\templates\wrapper.html:37
 msgid "About"
-msgstr ""
+msgstr "О нас"
 
 #: .\templates\wrapper.html:38 .\templates\wrapper.html:157
 msgid "Contact"
@@ -91,7 +91,7 @@ msgstr ""
 #: .\templates\wrapper.html:147 .\templates\wrapper.html:196
 #: .\templates\wrapper.html:207
 msgid "Home"
-msgstr ""
+msgstr "Главная"
 
 #: .\templates\wrapper.html:148
 msgid "Shop"

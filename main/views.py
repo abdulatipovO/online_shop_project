@@ -1,10 +1,15 @@
 from django.shortcuts import render
 from django.views import View
+from .models import *
 # Create your views here.
 
 class HomePageView(View):
     def get(self, request):
-        return render(request, 'index.html')
+        big_banner = Banner.objects.get(banner_type='Big')
+        context = {
+            "big_banner":big_banner,
+        }
+        return render(request, 'index.html', context)
 
 
 
