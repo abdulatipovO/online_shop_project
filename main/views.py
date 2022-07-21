@@ -5,9 +5,13 @@ from .models import *
 
 class HomePageView(View):
     def get(self, request):
-        big_banner = Banner.objects.get(banner_type='Big')
+        big_banner = Banner.objects.filter(banner_type='Big').order_by('-id')[:3]
+        small_banners = Banner.objects.filter(banner_type='Small').order_by('-id')[:3]
+
+
         context = {
             "big_banner":big_banner,
+            "small_banners":small_banners,
         }
         return render(request, 'index.html', context)
 

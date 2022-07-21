@@ -22,7 +22,7 @@ class Category(models.Model):
 
 
 class SubCategory(models.Model):
-    category = models.ForeignKey(Category, verbose_name="Kategoriyasi", on_delete=models.PROTECT)
+    category = models.ForeignKey(Category, verbose_name="Kategoriyasi", on_delete=models.PROTECT, related_name="subcategorys")
     name = models.CharField("SubKategoriya nomi", max_length=55)
     products_qty = models.PositiveIntegerField("Tovarlar soni", default=0)
 
