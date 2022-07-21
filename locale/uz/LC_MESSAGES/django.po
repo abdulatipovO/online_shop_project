@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 13:22+0500\n"
+"POT-Creation-Date: 2022-07-20 15:31+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,136 +18,334 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: .\shop\settings.py:203
+#: .\shop\settings.py:204
 msgid "English"
 msgstr ""
 
-#: .\shop\settings.py:204
+#: .\shop\settings.py:205
 msgid "Russian"
 msgstr ""
 
-#: .\shop\settings.py:205
+#: .\shop\settings.py:206
 msgid "Uzbek"
 msgstr ""
+
+#: .\templates\cart.html:13 .\templates\checkout.html:13
+#: .\templates\contact.html:13 .\templates\detail.html:13
+#: .\templates\shop.html:14 .\templates\wrapper.html:150
+#: .\templates\wrapper.html:199 .\templates\wrapper.html:210
+msgid "Home"
+msgstr "Bosh sahifa"
+
+#: .\templates\cart.html:14 .\templates\checkout.html:14
+#: .\templates\detail.html:14 .\templates\shop.html:15
+#: .\templates\wrapper.html:151
+msgid "Shop"
+msgstr "Do'kon"
+
+#: .\templates\cart.html:15 .\templates\wrapper.html:156
+#: .\templates\wrapper.html:202 .\templates\wrapper.html:213
+msgid "Shopping Cart"
+msgstr "Xarid savati"
+
+#: .\templates\cart.html:30 .\templates\checkout.html:146
+msgid "Products"
+msgstr "Mahsulotlar"
+
+#: .\templates\cart.html:31
+msgid "Price"
+msgstr "Narxi"
+
+#: .\templates\cart.html:32
+msgid "Quantity"
+msgstr "Miqdori"
+
+#: .\templates\cart.html:33 .\templates\checkout.html:172
+msgid "Total"
+msgstr "Jami"
+
+#: .\templates\cart.html:34
+msgid "Remove"
+msgstr "O'chirish"
+
+#: .\templates\cart.html:151
+msgid "Apply Coupon"
+msgstr "Kuponni qo'llash"
+
+#: .\templates\cart.html:155
+msgid "Cart Summary"
+msgstr "Savat xulosasi"
+
+#: .\templates\cart.html:159 .\templates\checkout.html:162
+msgid "Subtotal"
+msgstr "Oraliq jami"
+
+#: .\templates\cart.html:163 .\templates\checkout.html:166
+msgid "Shipping"
+msgstr "Yetkazib berish"
+
+#: .\templates\cart.html:172
+msgid "Proceed To Checkout"
+msgstr "Ro'yxatdan o'chirilishda davom etish"
+
+#: .\templates\checkout.html:15 .\templates\wrapper.html:157
+#: .\templates\wrapper.html:203 .\templates\wrapper.html:214
+msgid "Checkout"
+msgstr "Tekshirib ko'rmoq"
+
+#: .\templates\checkout.html:27
+msgid "Billing Address"
+msgstr "Murojaat manzili"
+
+#: .\templates\checkout.html:31
+msgid "First Name"
+msgstr "Ism"
+
+#: .\templates\checkout.html:35
+msgid "Last Name"
+msgstr "Familiya"
+
+#: .\templates\checkout.html:39
+msgid "E-mail"
+msgstr "Elektron pochta"
+
+#: .\templates\checkout.html:43
+msgid "Mobile No"
+msgstr "Mobil raqami"
+
+#: .\templates\checkout.html:47
+msgid "Address Line 1"
+msgstr "Manzil qatori 1"
+
+#: .\templates\checkout.html:51
+msgid "Address Line 2"
+msgstr "Manzil qatori 2"
+
+#: .\templates\checkout.html:55
+msgid "Country"
+msgstr "Mamlakat"
+
+#: .\templates\checkout.html:64
+msgid "City"
+msgstr "Shahar"
+
+#: .\templates\checkout.html:68
+msgid "State"
+msgstr "Davlat"
+
+#: .\templates\checkout.html:78
+msgid "Create an account"
+msgstr "Hisob ochish"
+
+#: .\templates\checkout.html:84
+msgid "Ship to different address"
+msgstr "Boshqa manzilga jo'natish"
+
+#: .\templates\checkout.html:143
+msgid "Order Total"
+msgstr "Buyurtma jami"
+
+#: .\templates\checkout.html:178
+msgid "Payment"
+msgstr "To'lov"
+
+#: .\templates\checkout.html:198
+msgid "Place Order"
+msgstr "Buyurtma berish"
+
+#: .\templates\contact.html:14 .\templates\wrapper.html:38
+#: .\templates\wrapper.html:160
+msgid "Contact"
+msgstr "Aloqa"
+
+#: .\templates\contact.html:24 .\templates\wrapper.html:204
+#: .\templates\wrapper.html:215
+msgid "Contact Us"
+msgstr "Biz bilan bog'lanish"
+
+#: .\templates\contact.html:52
+msgid "Send Message"
+msgstr "Xabar yuborish"
+
+#: .\templates\detail.html:15 .\templates\wrapper.html:152
+#: .\templates\wrapper.html:201 .\templates\wrapper.html:212
+msgid "Shop Detail"
+msgstr "Do'kon tafsilotlari"
+
+#: .\templates\detail.html:159
+msgid "Description"
+msgstr "Tavsif"
+
+#: .\templates\detail.html:160
+msgid "Information"
+msgstr "Ma`lumot"
+
+#: .\templates\detail.html:161
+msgid "Reviews"
+msgstr "Izohlar"
+
+#: .\templates\detail.html:269
+msgid "You May Also Like"
+msgstr "Sizga ham yoqishi mumkin"
+
+#: .\templates\index.html:80
+msgid "Quality Product"
+msgstr "Sifatli mahsulot"
+
+#: .\templates\index.html:86
+msgid "Free Shipping"
+msgstr "Yetkazib berish bepul"
+
+#: .\templates\index.html:92
+msgid "14-Day Return"
+msgstr "14 kunlik qaytish"
+
+#: .\templates\index.html:98
+msgid "24/7 Support"
+msgstr "24/7 Qo'llab-quvvatlash"
+
+#: .\templates\index.html:108 .\templates\wrapper.html:114
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: .\templates\index.html:273
+msgid "Featured Products"
+msgstr "Tanlangan mahsulotlar"
+
+#: .\templates\index.html:526
+msgid "Recent Products"
+msgstr "Oxirgi mahsulotlar"
+
+#: .\templates\shop.html:16
+msgid "Shop List"
+msgstr "Do'kon ro'yxati"
+
+#: .\templates\shop.html:30
+msgid "Filter by price"
+msgstr "Narx bo'yicha filtrlang"
+
+#: .\templates\shop.html:35
+msgid "All Price"
+msgstr "barcha narxlar"
+
+#: .\templates\shop.html:68
+msgid "Filter by color"
+msgstr "Rang bo'yicha filtrlang"
+
+#: .\templates\shop.html:73
+msgid "All Color"
+msgstr "Barcha Rang"
+
+#: .\templates\shop.html:106
+msgid "Filter by size"
+msgstr "Hajmi bo'yicha filtrlang"
+
+#: .\templates\shop.html:111
+msgid "All Size"
+msgstr "Barcha o'lcham"
+
+#: .\templates\shop.html:157
+msgid "Sorting"
+msgstr "Tartiblash"
+
+#: .\templates\shop.html:159
+msgid "Latest"
+msgstr "Oxirgi"
+
+#: .\templates\shop.html:160
+msgid "Popularity"
+msgstr "Mashhurlik"
+
+#: .\templates\shop.html:161
+msgid "Best Rating"
+msgstr "Eng yaxshi reyting"
+
+#: .\templates\shop.html:165
+msgid "Showing"
+msgstr "Koʻrsatilmoqda"
+
+#: .\templates\shop.html:421
+msgid "Previous"
+msgstr "Oldingi"
+
+#: .\templates\shop.html:425
+msgid "Next"
+msgstr "Keyingi"
 
 #: .\templates\wrapper.html:37
 msgid "About"
 msgstr "Biz haqimizda"
 
-#: .\templates\wrapper.html:38 .\templates\wrapper.html:157
-msgid "Contact"
-msgstr "Aloqa"
-
 #: .\templates\wrapper.html:39
 msgid "Help"
-msgstr ""
+msgstr "Yordam"
 
 #: .\templates\wrapper.html:40
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 #: .\templates\wrapper.html:48
 msgid "Sign in"
-msgstr ""
+msgstr "Kirish"
 
 #: .\templates\wrapper.html:49
 msgid "Sign up"
 msgstr ""
 
-#: .\templates\wrapper.html:53
+#: .\templates\wrapper.html:53 .\templates\wrapper.html:55
 msgid "USD"
 msgstr ""
 
-#: .\templates\wrapper.html:55
+#: .\templates\wrapper.html:56
 msgid "UZS"
 msgstr ""
 
-#: .\templates\wrapper.html:56
+#: .\templates\wrapper.html:57
 msgid "RUB"
 msgstr ""
 
-#: .\templates\wrapper.html:60
-msgid "EN"
-msgstr ""
-
-#: .\templates\wrapper.html:62
-msgid "UZ"
-msgstr ""
-
-#: .\templates\wrapper.html:63
-msgid "RU"
-msgstr ""
-
-#: .\templates\wrapper.html:99
+#: .\templates\wrapper.html:102
 msgid "Customer Service"
-msgstr ""
+msgstr "Mijozlarga hizmat"
 
-#: .\templates\wrapper.html:111
-msgid "Categories"
-msgstr ""
-
-#: .\templates\wrapper.html:147 .\templates\wrapper.html:196
-#: .\templates\wrapper.html:207
-msgid "Home"
-msgstr "Bosh sahifa"
-
-#: .\templates\wrapper.html:148
-msgid "Shop"
-msgstr ""
-
-#: .\templates\wrapper.html:149 .\templates\wrapper.html:198
-#: .\templates\wrapper.html:209
-msgid "Shop Detail"
-msgstr ""
-
-#: .\templates\wrapper.html:151
+#: .\templates\wrapper.html:154
 msgid "Pages"
-msgstr ""
+msgstr "Sahifalar"
 
-#: .\templates\wrapper.html:153 .\templates\wrapper.html:199
-#: .\templates\wrapper.html:210
-msgid "Shopping Cart"
-msgstr ""
-
-#: .\templates\wrapper.html:154 .\templates\wrapper.html:200
-#: .\templates\wrapper.html:211
-msgid "Checkout"
-msgstr ""
-
-#: .\templates\wrapper.html:185
+#: .\templates\wrapper.html:188
 msgid "Get In Touch"
-msgstr ""
+msgstr "biz bilan bog'laning"
 
-#: .\templates\wrapper.html:186
+#: .\templates\wrapper.html:189
 msgid ""
 "No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor "
 "sed dolor. Rebum tempor no vero est magna amet no"
 msgstr ""
 
-#: .\templates\wrapper.html:194
+#: .\templates\wrapper.html:197
 msgid "Quick Shop"
-msgstr ""
+msgstr "Tezkor do'kon"
 
-#: .\templates\wrapper.html:201 .\templates\wrapper.html:212
-msgid "Contact Us"
-msgstr ""
+#: .\templates\wrapper.html:200 .\templates\wrapper.html:211
+msgid "Our Shop"
+msgstr "Bizning do'konimiz"
 
-#: .\templates\wrapper.html:205
+#: .\templates\wrapper.html:208
 msgid "My Account"
-msgstr ""
+msgstr "Mening Hisobim"
 
-#: .\templates\wrapper.html:216
+#: .\templates\wrapper.html:219
 msgid "Newsletter"
-msgstr ""
+msgstr "Axborot byulleteni"
 
-#: .\templates\wrapper.html:217
+#: .\templates\wrapper.html:220
 msgid "Duo stet tempor ipsum sit amet magna ipsum tempor est"
 msgstr ""
 
-#: .\templates\wrapper.html:222
+#: .\templates\wrapper.html:225
 msgid "Sign Up"
-msgstr ""
+msgstr "Ro'yxatdan o'tish"
 
-#: .\templates\wrapper.html:226
+#: .\templates\wrapper.html:229
 msgid "Follow Us"
-msgstr ""
+msgstr "Bizni kuzatib boring"

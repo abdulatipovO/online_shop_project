@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 13:22+0500\n"
+"POT-Creation-Date: 2022-07-20 15:31+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,136 +20,334 @@ msgstr ""
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: .\shop\settings.py:203
+#: .\shop\settings.py:204
 msgid "English"
 msgstr ""
 
-#: .\shop\settings.py:204
+#: .\shop\settings.py:205
 msgid "Russian"
 msgstr ""
 
-#: .\shop\settings.py:205
+#: .\shop\settings.py:206
 msgid "Uzbek"
 msgstr ""
+
+#: .\templates\cart.html:13 .\templates\checkout.html:13
+#: .\templates\contact.html:13 .\templates\detail.html:13
+#: .\templates\shop.html:14 .\templates\wrapper.html:150
+#: .\templates\wrapper.html:199 .\templates\wrapper.html:210
+msgid "Home"
+msgstr "Главная"
+
+#: .\templates\cart.html:14 .\templates\checkout.html:14
+#: .\templates\detail.html:14 .\templates\shop.html:15
+#: .\templates\wrapper.html:151
+msgid "Shop"
+msgstr "Магазин"
+
+#: .\templates\cart.html:15 .\templates\wrapper.html:156
+#: .\templates\wrapper.html:202 .\templates\wrapper.html:213
+msgid "Shopping Cart"
+msgstr "Корзина покупателя"
+
+#: .\templates\cart.html:30 .\templates\checkout.html:146
+msgid "Products"
+msgstr "Товары"
+
+#: .\templates\cart.html:31
+msgid "Price"
+msgstr "Цена"
+
+#: .\templates\cart.html:32
+msgid "Quantity"
+msgstr "Количество"
+
+#: .\templates\cart.html:33 .\templates\checkout.html:172
+msgid "Total"
+msgstr "Общий"
+
+#: .\templates\cart.html:34
+msgid "Remove"
+msgstr "Удалить"
+
+#: .\templates\cart.html:151
+msgid "Apply Coupon"
+msgstr "Применить купон"
+
+#: .\templates\cart.html:155
+msgid "Cart Summary"
+msgstr "Сводка корзины"
+
+#: .\templates\cart.html:159 .\templates\checkout.html:162
+msgid "Subtotal"
+msgstr "Промежуточный итог"
+
+#: .\templates\cart.html:163 .\templates\checkout.html:166
+msgid "Shipping"
+msgstr "перевозка груза"
+
+#: .\templates\cart.html:172
+msgid "Proceed To Checkout"
+msgstr "Перейти к оформлению заказа"
+
+#: .\templates\checkout.html:15 .\templates\wrapper.html:157
+#: .\templates\wrapper.html:203 .\templates\wrapper.html:214
+msgid "Checkout"
+msgstr "Проверить"
+
+#: .\templates\checkout.html:27
+msgid "Billing Address"
+msgstr "Адрес для выставления счета"
+
+#: .\templates\checkout.html:31
+msgid "First Name"
+msgstr "Имя"
+
+#: .\templates\checkout.html:35
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: .\templates\checkout.html:39
+msgid "E-mail"
+msgstr "Эл. почта"
+
+#: .\templates\checkout.html:43
+msgid "Mobile No"
+msgstr "Номер мобильного"
+
+#: .\templates\checkout.html:47
+msgid "Address Line 1"
+msgstr "Адресная строка 1"
+
+#: .\templates\checkout.html:51
+msgid "Address Line 2"
+msgstr "Адресная строка 2"
+
+#: .\templates\checkout.html:55
+msgid "Country"
+msgstr "Страна"
+
+#: .\templates\checkout.html:64
+msgid "City"
+msgstr "Город"
+
+#: .\templates\checkout.html:68
+msgid "State"
+msgstr "Состояние"
+
+#: .\templates\checkout.html:78
+msgid "Create an account"
+msgstr "Завести аккаунт"
+
+#: .\templates\checkout.html:84
+msgid "Ship to different address"
+msgstr "отправить на другой адрес"
+
+#: .\templates\checkout.html:143
+msgid "Order Total"
+msgstr "Весь заказ"
+
+#: .\templates\checkout.html:178
+msgid "Payment"
+msgstr "Оплата"
+
+#: .\templates\checkout.html:198
+msgid "Place Order"
+msgstr "Разместить заказ"
+
+#: .\templates\contact.html:14 .\templates\wrapper.html:38
+#: .\templates\wrapper.html:160
+msgid "Contact"
+msgstr "Контакт"
+
+#: .\templates\contact.html:24 .\templates\wrapper.html:204
+#: .\templates\wrapper.html:215
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: .\templates\contact.html:52
+msgid "Send Message"
+msgstr "Отправить сообщение"
+
+#: .\templates\detail.html:15 .\templates\wrapper.html:152
+#: .\templates\wrapper.html:201 .\templates\wrapper.html:212
+msgid "Shop Detail"
+msgstr "Сведения о магазине"
+
+#: .\templates\detail.html:159
+msgid "Description"
+msgstr "Описание"
+
+#: .\templates\detail.html:160
+msgid "Information"
+msgstr "Информация"
+
+#: .\templates\detail.html:161
+msgid "Reviews"
+msgstr "Отзывы"
+
+#: .\templates\detail.html:269
+msgid "You May Also Like"
+msgstr "Вам также может понравиться"
+
+#: .\templates\index.html:80
+msgid "Quality Product"
+msgstr "Качественный продукт"
+
+#: .\templates\index.html:86
+msgid "Free Shipping"
+msgstr "Бесплатная доставка"
+
+#: .\templates\index.html:92
+msgid "14-Day Return"
+msgstr "14-дневный возврат"
+
+#: .\templates\index.html:98
+msgid "24/7 Support"
+msgstr "24/7 Поддерживать"
+
+#: .\templates\index.html:108 .\templates\wrapper.html:114
+msgid "Categories"
+msgstr "Категории"
+
+#: .\templates\index.html:273
+msgid "Featured Products"
+msgstr "Рекомендуемые продукты"
+
+#: .\templates\index.html:526
+msgid "Recent Products"
+msgstr "Последние продукты"
+
+#: .\templates\shop.html:16
+msgid "Shop List"
+msgstr "Список магазинов"
+
+#: .\templates\shop.html:30
+msgid "Filter by price"
+msgstr "Фильтровать по цене"
+
+#: .\templates\shop.html:35
+msgid "All Price"
+msgstr "Все цены"
+
+#: .\templates\shop.html:68
+msgid "Filter by color"
+msgstr "Фильтровать по цвету"
+
+#: .\templates\shop.html:73
+msgid "All Color"
+msgstr "Все цвета"
+
+#: .\templates\shop.html:106
+msgid "Filter by size"
+msgstr "Фильтровать по размеру"
+
+#: .\templates\shop.html:111
+msgid "All Size"
+msgstr "Все размеры"
+
+#: .\templates\shop.html:157
+msgid "Sorting"
+msgstr "Сортировка"
+
+#: .\templates\shop.html:159
+msgid "Latest"
+msgstr "Последний"
+
+#: .\templates\shop.html:160
+msgid "Popularity"
+msgstr "Популярность"
+
+#: .\templates\shop.html:161
+msgid "Best Rating"
+msgstr "Лучший рейтинг"
+
+#: .\templates\shop.html:165
+msgid "Showing"
+msgstr "Показаны"
+
+#: .\templates\shop.html:421
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: .\templates\shop.html:425
+msgid "Next"
+msgstr "Следующий"
 
 #: .\templates\wrapper.html:37
 msgid "About"
 msgstr "О нас"
 
-#: .\templates\wrapper.html:38 .\templates\wrapper.html:157
-msgid "Contact"
-msgstr ""
-
 #: .\templates\wrapper.html:39
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: .\templates\wrapper.html:40
 msgid "FAQs"
-msgstr ""
+msgstr "FAQs"
 
 #: .\templates\wrapper.html:48
 msgid "Sign in"
-msgstr ""
+msgstr "Войти"
 
 #: .\templates\wrapper.html:49
 msgid "Sign up"
 msgstr ""
 
-#: .\templates\wrapper.html:53
+#: .\templates\wrapper.html:53 .\templates\wrapper.html:55
 msgid "USD"
 msgstr ""
 
-#: .\templates\wrapper.html:55
+#: .\templates\wrapper.html:56
 msgid "UZS"
 msgstr ""
 
-#: .\templates\wrapper.html:56
+#: .\templates\wrapper.html:57
 msgid "RUB"
 msgstr ""
 
-#: .\templates\wrapper.html:60
-msgid "EN"
-msgstr ""
-
-#: .\templates\wrapper.html:62
-msgid "UZ"
-msgstr ""
-
-#: .\templates\wrapper.html:63
-msgid "RU"
-msgstr ""
-
-#: .\templates\wrapper.html:99
+#: .\templates\wrapper.html:102
 msgid "Customer Service"
-msgstr ""
+msgstr "Обслуживание клиентов"
 
-#: .\templates\wrapper.html:111
-msgid "Categories"
-msgstr ""
-
-#: .\templates\wrapper.html:147 .\templates\wrapper.html:196
-#: .\templates\wrapper.html:207
-msgid "Home"
-msgstr "Главная"
-
-#: .\templates\wrapper.html:148
-msgid "Shop"
-msgstr ""
-
-#: .\templates\wrapper.html:149 .\templates\wrapper.html:198
-#: .\templates\wrapper.html:209
-msgid "Shop Detail"
-msgstr ""
-
-#: .\templates\wrapper.html:151
+#: .\templates\wrapper.html:154
 msgid "Pages"
-msgstr ""
+msgstr "Страницы"
 
-#: .\templates\wrapper.html:153 .\templates\wrapper.html:199
-#: .\templates\wrapper.html:210
-msgid "Shopping Cart"
-msgstr ""
-
-#: .\templates\wrapper.html:154 .\templates\wrapper.html:200
-#: .\templates\wrapper.html:211
-msgid "Checkout"
-msgstr ""
-
-#: .\templates\wrapper.html:185
+#: .\templates\wrapper.html:188
 msgid "Get In Touch"
-msgstr ""
+msgstr "Связаться"
 
-#: .\templates\wrapper.html:186
+#: .\templates\wrapper.html:189
 msgid ""
 "No dolore ipsum accusam no lorem. Invidunt sed clita kasd clita et et dolor "
 "sed dolor. Rebum tempor no vero est magna amet no"
 msgstr ""
 
-#: .\templates\wrapper.html:194
+#: .\templates\wrapper.html:197
 msgid "Quick Shop"
-msgstr ""
+msgstr "Быстрый магазин"
 
-#: .\templates\wrapper.html:201 .\templates\wrapper.html:212
-msgid "Contact Us"
-msgstr ""
+#: .\templates\wrapper.html:200 .\templates\wrapper.html:211
+msgid "Our Shop"
+msgstr "Наш магазин"
 
-#: .\templates\wrapper.html:205
+#: .\templates\wrapper.html:208
 msgid "My Account"
-msgstr ""
+msgstr "Мой Аккаунт"
 
-#: .\templates\wrapper.html:216
+#: .\templates\wrapper.html:219
 msgid "Newsletter"
-msgstr ""
+msgstr "Новостная рассылка"
 
-#: .\templates\wrapper.html:217
+#: .\templates\wrapper.html:220
 msgid "Duo stet tempor ipsum sit amet magna ipsum tempor est"
 msgstr ""
 
-#: .\templates\wrapper.html:222
+#: .\templates\wrapper.html:225
 msgid "Sign Up"
-msgstr ""
+msgstr "Регистрация"
 
-#: .\templates\wrapper.html:226
+#: .\templates\wrapper.html:229
 msgid "Follow Us"
-msgstr ""
+msgstr "Подписывайтесь на нас"
