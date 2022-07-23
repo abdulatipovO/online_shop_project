@@ -7,11 +7,13 @@ class HomePageView(View):
     def get(self, request):
         big_banner = Banner.objects.filter(banner_type='Big').order_by('-id')[:3]
         small_banners = Banner.objects.filter(banner_type='Small').order_by('-id')[:3]
+        product = Product.objects.order_by('-views')
 
 
         context = {
             "big_banner":big_banner,
             "small_banners":small_banners,
+            "product":product,
         }
         return render(request, 'index.html', context)
 
