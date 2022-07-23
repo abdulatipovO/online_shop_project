@@ -41,6 +41,6 @@ class CheckoutPageView(View):
         return render(request, 'checkout.html')
 
 
-class CartPageView(View):
-    def get(self, request):
-        return render(request, 'cart.html')
+# class CartPageView(View):
+#     def get(self, request):
+#         return render(request, 'cart.html')

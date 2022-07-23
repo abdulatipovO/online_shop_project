@@ -26,6 +26,7 @@ urlpatterns = [
 
 urlpatterns +=i18n_patterns (
     path('', include('main.urls', namespace="main")),
+    path('card/', include('card.urls', namespace="card")),
 )
 
 

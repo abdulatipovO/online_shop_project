@@ -8,6 +8,6 @@ urlpatterns = [
     path('detail', DetailPageView.as_view(), name="detail"),
     path('contact', ContactPageView.as_view(), name="contact"),
     path('checkout', CheckoutPageView.as_view(), name="checkout"),
-    path('cart', CartPageView.as_view(), name="cart"),
+    # path('cart', CartPageView.as_view(), name="cart"),
 
 ]

@@ -266,6 +266,27 @@
 
 <!-- Template Javascript -->
 <script src="/static/js/main.js"></script>
+
+<script>
+    $(document).ready(() => {
+        $('.add_to_cart').on('click', function (event){
+            event.preventDefault();
+            let product_id = $(this).attr('data-id');
+            
+            $.ajax({
+                url:"/card/add",
+                data:{product_id:product_id},
+                method:"GET",
+                dataType:"json",
+                success:function(response){
+                    console.log(response)
+                }
+            });
+            
+        });
+    });
+</script>
+
 </body>
 
 </html>
