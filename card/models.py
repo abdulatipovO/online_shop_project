@@ -14,6 +14,7 @@ class CardProduct(models.Model):
     def __str__(self):
         return self.product.name
 
+
 class Card(models.Model):
     product = models.ManyToManyField(CardProduct)
     calculated_summa = models.PositiveIntegerField(default=0)

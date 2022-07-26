@@ -163,7 +163,7 @@
                         </a>
                         <a href="" class="btn px-0 ml-3">
                             <i class="fas fa-shopping-cart text-primary"></i>
-                            <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            <span class="badge text-secondary border border-secondary rounded-circle" id="card_total_products" style="padding-bottom: 2px; ">{{ card_products_count }}</span>
                         </a>
                     </div>
                 </div>
@@ -253,6 +253,25 @@
 <!-- Back to Top -->
 <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
+<style>
+    .alert-modal{
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%) translateY(-250px);
+        padding: 20px;
+        background-color: rgba(48, 35, 35, 0.5);
+        z-index: 999;
+        transition: 0.6s;
+    }
+    .alert-modal h1{
+        color: azure;
+    }
+</style>
+
+<div class="alert-modal">
+    <h1 id="message"></h1>
+</div>
 
 <!-- JavaScript Libraries -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -279,12 +298,23 @@
                 method:"GET",
                 dataType:"json",
                 success:function(response){
-                    console.log(response)
+                    console.log(response);
+                    $('#message').text(response.status);
+                    $('.alert-modal').css('transform', "translateX(-50%) translateY(0px)")
+                    $('#card_total_products').text(response.card_total_products)
+                    
+                    setTimeout(CloseModal, 2000)
                 }
             });
             
         });
     });
+
+    function CloseModal(){
+        
+        $('.alert-modal').css('transform', "translateX(-50%) translateY(-250px)")
+
+    }
 </script>
 
 </body>

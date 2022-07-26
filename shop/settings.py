@@ -212,6 +212,9 @@ LANGUAGES = (
 
 LOCALE_PATHS = (os.path.join(BASE_DIR,  'locale' ),)
 
+SESSION_COOKIE_AGE = 2409600
+
+
 MODELTRANSLATION_DEFAULT_LANGUAGE = 'uz'
 
 # Static files (CSS, JavaScript, Images)

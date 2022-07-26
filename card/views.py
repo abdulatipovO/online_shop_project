@@ -15,7 +15,5 @@ class CardAddView(View):
     def get(self, request):
         product_id = request.GET.get('product_id')
         card =GetCard(request)
-        print()
-        print(product_id)
-        print()
-        return JsonResponse({"status":"Qabul qilindi"})
+        add_status = card.add(product_id)
+        return JsonResponse({"status":add_status['message'] ,"card_total_products":add_status['card_total_products']})
